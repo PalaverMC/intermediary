@@ -55,7 +55,7 @@ file('mappings').eachFile {
 	publishing {
 		publications {
 			create("${mcVer}_mavenJava", MavenPublication) {
-				groupId 'net.fabricmc'
+				groupId 'io.github.darkerbit'
 				artifactId "intermediary"
 				version mcVer
 				artifact(makeV1Jar.archiveFile) {
@@ -86,13 +86,6 @@ def makeJar(String mcVersion, File mappings, boolean v2) {
 publishing {
 	repositories {
 		maven {
-			url "http://mavenupload.modmuss50.me/"
-			if (project.hasProperty('mavenPass')) {
-				credentials {
-					username 'buildslave'
-					password project.getProperty('mavenPass')
-				}
-			}
 		}
 	}
 }

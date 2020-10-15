@@ -8140,19 +8140,19 @@ FIELD	com/jcraft/jorbis/Floor1$LookFloor1	Lcom/jcraft/jorbis/Floor1;	this$0	this
 FIELD	com/jcraft/jorbis/Floor1$LookFloor1	Lcom/jcraft/jorbis/Floor1$InfoFloor1;	vi	field_3569
 METHOD	com/jcraft/jorbis/Floor1$LookFloor1	()V	free	free
 CLASS	com/jcraft/jorbis/Floor1$Lsfit_acc	com/jcraft/jorbis/Floor1$class_958
-FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	an	field_3570
+FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	an	field_5967
 FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	edgey0	edgey0
 FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	edgey1	edgey1
-FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	n	field_3571
+FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	n	field_5968
 FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	Lcom/jcraft/jorbis/Floor1;	this$0	this$0
-FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	un	field_3572
-FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	x0	field_3573
-FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	x1	field_3574
+FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	un	field_5969
+FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	x0	field_5970
+FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	x1	field_5971
 FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	x2a	x2a
-FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	xa	field_3575
+FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	xa	field_5972
 FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	xya	xya
 FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	y2a	y2a
-FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	ya	field_3576
+FIELD	com/jcraft/jorbis/Floor1$Lsfit_acc	J	ya	field_5973
 CLASS	com/jcraft/jorbis/FuncFloor	com/jcraft/jorbis/FuncFloor
 FIELD	com/jcraft/jorbis/FuncFloor	[Lcom/jcraft/jorbis/FuncFloor;	floor_P	floor_P
 METHOD	com/jcraft/jorbis/FuncFloor	(Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F[FLjava/lang/Object;)I	forward	forward
@@ -9159,6 +9159,9 @@ FIELD	gm	Lbb;	b	field_3921
 CLASS	gn	net/minecraft/class_1068
 FIELD	gn	Lnet/minecraft/server/MinecraftServer;	a	field_3922
 FIELD	gn	J	b	field_3923
+CLASS	go	net/minecraft/class_1559
+FIELD	go	Lhz;	a	field_5974
+METHOD	go	()V	run	run
 CLASS	gp	net/minecraft/class_1069
 FIELD	gp	Lnet/minecraft/server/MinecraftServer;	a	field_3924
 METHOD	gp	()V	run	run
@@ -9371,6 +9374,7 @@ METHOD	hz	(Ljava/lang/String;Lab;)V	a	method_3444
 METHOD	hz	(Ljava/lang/String;Z)Z	a	method_3445
 METHOD	hz	()V	an	method_3446
 METHOD	hz	()Lhy;	ao	method_3447
+METHOD	hz	()V	ap	method_5324
 CLASS	i	net/minecraft/class_1107
 FIELD	i	Lb;	a	field_3964
 METHOD	i	()Ljava/lang/String;	a	method_3448
@@ -9408,6 +9412,51 @@ METHOD	if	()V	b	method_3456
 METHOD	if	()Ljava/net/InetAddress;	c	method_3457
 METHOD	if	()I	d	method_3458
 METHOD	if	()V	run	run
+CLASS	ig	net/minecraft/class_1560
+FIELD	ig	Z	a	field_5975
+FIELD	ig	Lhz;	b	field_5976
+METHOD	ig	(Lhz;)V	a	method_5325
+METHOD	ig	(Lig;)Lhz;	a	method_5326
+METHOD	ig	()Ljavax/swing/JComponent;	b	method_5327
+METHOD	ig	()Ljavax/swing/JComponent;	c	method_5328
+METHOD	ig	()Ljavax/swing/JComponent;	d	method_5329
+CLASS	ih	net/minecraft/class_1561
+FIELD	ih	Lhz;	a	field_5977
+METHOD	ih	(Ljava/awt/event/WindowEvent;)V	windowClosing	windowClosing
+CLASS	ii	net/minecraft/class_1562
+FIELD	ii	Ljavax/swing/JTextField;	a	field_5978
+FIELD	ii	Lig;	b	field_5979
+METHOD	ii	(Ljava/awt/event/ActionEvent;)V	actionPerformed	actionPerformed
+CLASS	ij	net/minecraft/class_1563
+FIELD	ij	Lig;	a	field_5980
+METHOD	ij	(Ljava/awt/event/FocusEvent;)V	focusGained	focusGained
+CLASS	ik	net/minecraft/class_1564
+FIELD	ik	Lnet/minecraft/server/MinecraftServer;	a	field_5981
+FIELD	ik	I	b	field_5982
+CLASS	il	net/minecraft/class_1565
+FIELD	il	Ljava/text/DecimalFormat;	a	field_5983
+FIELD	il	[I	b	field_5984
+FIELD	il	I	c	field_5985
+FIELD	il	[Ljava/lang/String;	d	field_5986
+FIELD	il	Lnet/minecraft/server/MinecraftServer;	e	field_5987
+METHOD	il	()V	a	method_5330
+METHOD	il	(Lil;)V	a	method_5331
+METHOD	il	([J)D	a	method_5332
+METHOD	il	(Ljava/awt/Graphics;)V	paint	paint
+CLASS	im	net/minecraft/class_1566
+FIELD	im	Lil;	a	field_5988
+METHOD	im	(Ljava/awt/event/ActionEvent;)V	actionPerformed	actionPerformed
+CLASS	in	net/minecraft/class_1567
+FIELD	in	Ljava/util/logging/Formatter;	a	field_5989
+FIELD	in	[I	b	field_5990
+FIELD	in	I	c	field_5991
+FIELD	in	Ljavax/swing/JTextArea;	d	field_5992
+METHOD	in	()V	close	close
+METHOD	in	()V	flush	flush
+METHOD	in	(Ljava/util/logging/LogRecord;)V	publish	publish
+CLASS	io	net/minecraft/class_1568
+FIELD	io	Lin;	a	field_5993
+METHOD	io	(Ljava/util/logging/LogRecord;)Ljava/lang/String;	format	format
 CLASS	ip	net/minecraft/class_1114
 FIELD	ip	I	a	field_3977
 FIELD	ip	I	b	field_3978
@@ -10040,6 +10089,7 @@ METHOD	ks	(Ljava/lang/Object;)Z	equals	equals
 METHOD	ks	()I	hashCode	hashCode
 METHOD	ks	()Ljava/lang/String;	toString	toString
 CLASS	ku	net/minecraft/class_1170
+METHOD	ku	()Ljava/util/logging/Logger;	a	method_5333
 METHOD	ku	(Ljava/lang/String;)V	a	method_3699
 METHOD	ku	(Ljava/lang/String;)V	b	method_3700
 METHOD	ku	(Ljava/lang/String;Ljava/lang/Throwable;)V	b	method_3701
@@ -10944,6 +10994,7 @@ METHOD	net/minecraft/server/MinecraftServer	(Laaj;Z)Ljava/lang/String;	a	method_
 METHOD	net/minecraft/server/MinecraftServer	(Lab;Ljava/lang/String;)Ljava/util/List;	a	method_4147
 METHOD	net/minecraft/server/MinecraftServer	(Lb;)V	a	method_4148
 METHOD	net/minecraft/server/MinecraftServer	(Lgu;)V	a	method_4149
+METHOD	net/minecraft/server/MinecraftServer	(Lgy;)V	a	method_5334
 METHOD	net/minecraft/server/MinecraftServer	(Ljava/lang/String;Ljava/lang/String;JLaal;Ljava/lang/String;)V	a	method_4150
 METHOD	net/minecraft/server/MinecraftServer	(Ljava/security/KeyPair;)V	a	method_4151
 METHOD	net/minecraft/server/MinecraftServer	(Lnet/minecraft/server/MinecraftServer;)Lgu;	a	method_4152
@@ -10998,6 +11049,7 @@ METHOD	net/minecraft/server/MinecraftServer	()Ljava/lang/String;	l	method_4194
 METHOD	net/minecraft/server/MinecraftServer	(Ljava/lang/String;)V	l	method_4195
 METHOD	net/minecraft/server/MinecraftServer	()Z	m	method_4196
 METHOD	net/minecraft/server/MinecraftServer	(Ljava/lang/String;)V	m	method_4197
+METHOD	net/minecraft/server/MinecraftServer	([Ljava/lang/String;)V	main	main
 METHOD	net/minecraft/server/MinecraftServer	()V	n	method_4198
 METHOD	net/minecraft/server/MinecraftServer	(Ljava/lang/String;)V	n	method_4199
 METHOD	net/minecraft/server/MinecraftServer	()Ljava/io/File;	o	method_4200
@@ -14663,6 +14715,6 @@ FIELD	zz	D	d	field_5966
 METHOD	zz	()Ljava/lang/String;	a	method_5321
 METHOD	zz	(Ljava/lang/String;)V	a	method_5322
 METHOD	zz	()Z	b	method_5323
-# INTERMEDIARY-COUNTER field 5967
-# INTERMEDIARY-COUNTER method 5324
-# INTERMEDIARY-COUNTER class 1559
+# INTERMEDIARY-COUNTER field 5994
+# INTERMEDIARY-COUNTER method 5335
+# INTERMEDIARY-COUNTER class 1569

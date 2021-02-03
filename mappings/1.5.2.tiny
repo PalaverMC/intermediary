@@ -12844,7 +12844,7 @@ METHOD	qu	(Z)V	m	method_4582
 METHOD	qu	(I)V	s	method_4583
 METHOD	qu	()Z	t	method_4584
 CLASS	qv	net/minecraft/class_1323
-METHOD	qv	()I	aW	method_4245
+METHOD	qv	()I	aW	method_8001
 METHOD	qv	()Ljava/lang/String;	am	method_3976
 METHOD	qv	()I	b	method_4585
 CLASS	qw	net/minecraft/class_1324
